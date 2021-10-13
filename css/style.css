@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  outline: none;
+  overflow: hidden;
+}
+.linha {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.linha .coluna {
+  padding: 10px 15px;
+  font-size: 22px;
+}
+.linha .coluna.coluna-rank {
+  flex-basis: 90px;
+}
+.linha .coluna.coluna-country {
+  flex-grow: 2;
+}
+.linha .coluna.coluna-gold,
+.linha .coluna.coluna-silver,
+.linha .coluna.coluna-bronze {
+  flex-basis: 51px;
+}
+.header-container {
+  background-image: linear-gradient(105deg, #18151a 70%, #2b56f6 30%);
+}
+.header-container .header-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header-container .header-content .linha .coluna-logo img {
+  padding-top: 8px;
+}
+.header-container .header-content .linha .coluna-titulo {
+  color: #fff;
+  padding-left: 50px;
+  font-size: 18px;
+}
+.main-container {
+  height: 60vh;
+  padding-top: 60px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+.main-container .article-container {
+  box-shadow: 0 2px 20px -9px #000;
+}
+.main-container .article-container .table-header .linha .coluna {
+  font-size: 26px;
+  font-weight: bold;
+}
+.main-container .article-container .table-header .linha .coluna:nth-child(3) span {
+  background-color: #f7cc48;
+}
+.main-container .article-container .table-header .linha .coluna:nth-child(4) span {
+  background-color: #d8d6d6;
+}
+.main-container .article-container .table-header .linha .coluna:nth-child(5) span {
+  background-color: #b7955e;
+}
+.main-container .article-container .table-header .linha .coluna-medalha span {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 50px;
+}
+.main-container .article-container .quadro-medalhas {
+  height: 250px;
+  overflow-y: scroll;
+}
+.main-container .article-container .quadro-medalhas .linha:nth-child(2n+1) {
+  background-color: #e6e6e6;
+}
+.footer-container {
+  height: 10vh;
+  text-align: center;
+  padding: 10px;
+  background-image: linear-gradient(105deg, #18151a 70%, #2b56f6 30%);
+}
+.footer-container .footer__content-text {
+  color: #fff;
+  font-size: 18px;
+}

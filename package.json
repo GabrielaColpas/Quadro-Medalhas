@@ -1,0 +1,17 @@
+{
+  "name": "quadromedalhas",
+  "version": "1.0.0",
+  "description": "Projeto para criação de um quadro, onde os dados foram inseridos via JavaScript",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriela Camargo",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.4.1",
+    "grunt-contrib-less": "^3.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "jit-grunt": "^0.10.0"
+  }
+}
